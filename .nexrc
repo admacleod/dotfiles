@@ -1,0 +1,13 @@
+set autoindent
+set autowrite
+set extended
+set ignorecase
+set nolock
+set ruler
+set searchincr
+set secure
+set shiftwidth=4
+set showmatch
+set showmode
+set tabstop=4
+set wraplen=80

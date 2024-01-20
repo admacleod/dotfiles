@@ -1,0 +1,9 @@
+[user]
+	name = Alisdair MacLeod
+	email = git@alisdairmacleod.co.uk
+
+[color]
+	ui = false
+
+[core]
+	excludesFile = ~/.gitignore
