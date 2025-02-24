@@ -1,9 +1,32 @@
 [user]
 	name = Alisdair MacLeod
 	email = git@alisdairmacleod.co.uk
-
-[color]
-	ui = false
-
 [core]
 	excludesFile = ~/.gitignore
+	fsmonitor = true
+	untrackedCache = true
+[color]
+	ui = false
+[help]
+	autocorrect = prompt
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[diff]
+	algorithm = histogram
+	mnemonicPrefix = true
+	renames = true
+[push]
+	autoSetupRemote = true
+	followTags = true
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+[rerere]
+	enabled = true
+	autoupdate = true
+
